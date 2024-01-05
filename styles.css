@@ -1,4 +1,3 @@
-
 @media (min-width: 768px) {
   body {
     background-color: white;
@@ -286,7 +285,7 @@ img {
 
 
 .main-footer {
-  margin-top: auto;
+  margin-top: 0;
   height: auto;
   background-color: rgba(45, 81, 166, 0.9); /* Slightly transparent footer */
   box-shadow: 0 -2px 15px rgba(0, 0, 0, 0.5); /* Increased shadow */
@@ -608,7 +607,8 @@ h2, h3, a {
   background-color: white;
   text-align: center;
   padding: 0px 0;
-  position: relative;
+  margin-bottom: 0;
+  margin-top: 55px;
 }
 
 .second-footer img {
